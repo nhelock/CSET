@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:rgb(217, 217, 214);
+}
+.center{
+    margin:auto;
+    text-align:center;
+    width:fit-content;
+}
+.title{
+    border:2px solid rgb(13, 13, 168);
+    border-radius:20px;
+    padding:10px;
+    margin-top:15px;
+    margin-bottom:20px;
+    background-image:radial-gradient(white,navy);
+}
+.list-holster{
+    border:2px solid rgb(13, 13, 168);
+    border-radius:20px;
+    padding:10px;
+    padding-left:20px;
+    height:fit-content;
+    text-align:left;
+    margin:auto;
+    margin-top:15px;
+    width:fit-content;
+}
+
+
+.grocery{
+    accent-color: #78ac65;
+}
+ 
+
+.grocery:checked+label{
+    color: #78ac65;
+    text-decoration: line-through;
+    
+}
+
+.hide{
+    display: none;
+}
+.buttons{
+    margin:auto;
+    color: #f9f8f1;
+    background-color:rgb(157, 93, 59);
+    border-radius:5px;
+    padding:5px;
+}
+.button-holster{
+    padding-top:20px;
+    width:fit-content;
+    display:flex;
+    margin:auto;
+    justify-content:space-evenly;
+    gap:15px;
+}
+  

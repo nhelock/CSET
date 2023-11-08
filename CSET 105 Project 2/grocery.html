@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Grocery List</title>
+        <link rel="stylesheet" href="grocery.css">
+        <script src="grocery.js"></script>
+    </head>
+    <body>
+
+        <h1 class="center title">Grocery Manager Mk.2 🤠</h1>
+        <form action="javascript:groceryadd()" class="center">
+            <label for="item">Input your Item:</label>
+            <input type="text" id="item" name="item">
+            <input type="submit" value="Add To List">
+        </form>
+        <div class="button-holster">
+            <button class="buttons" onclick="listHide()">Hide Completed Items</button>
+            <button class="buttons" onclick="listShow()">Show Completed Items</button>
+        </div>
+        <form action="" class="list-holster">
+            <input type="checkbox" class="grocery">
+            <label for="grocery">Item 1</label>
+            <br>
+            <input type="checkbox" class="grocery">
+            <label for="grocery">Item 2</label>
+            <br>
+        </form>
+    </body>
+
+</html>

@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="Janken.css">
+    </head>
+    <body>
+        <div class="background">
+            <h1 class="game-options">Rock, Paper, Scissors!</h1>
+            <div class="game-options">   
+                <button class="rock" onclick="rps('rock')"><ion-icon name="cloud"></ion-icon></button>
+                <button class="paper" onclick="rps('paper')"><ion-icon name="document"></ion-icon></button>
+                <button class="scissor" onclick="rps('scissor')"><ion-icon name="cut"></ion-icon></button>
+            </div>  
+
+            <table class="table-holster" id="score">
+                <tr>
+                    <th>User Score</th>
+                    <th>Computer Score</th>
+                    <th>Round #</th>
+                </tr>
+            </table>
+        </div>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    </body>
+    <script src="Janken3.js"></script>
+</html>
